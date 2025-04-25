@@ -114,3 +114,17 @@
     color: #eee;
   }
   
+  footer a {
+    margin: 0 10px;
+    display: inline-block;
+  }
+  
+  footer img {
+    vertical-align: middle;
+    transition: transform 0.2s;
+  }
+  
+  footer img:hover {
+    transform: scale(1.1);
+  }
+  
