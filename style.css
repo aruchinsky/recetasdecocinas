@@ -50,6 +50,13 @@
     background-color: #cbb49d;
   }
   
+  .section-title {
+    text-align: center;
+    font-size: 1.8rem;
+    margin: 20px 0 30px;
+    color: #5a4a3f;
+  }
+  
   .card-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -163,7 +170,8 @@
   }
   
   body.dark .card p,
-  body.dark .card h3 {
+  body.dark .card h3,
+  body.dark .section-title {
     color: #eee;
   }
   
